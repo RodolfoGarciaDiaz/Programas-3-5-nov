@@ -1,0 +1,14 @@
+//Rodolfo García Díaz 1° 3
+//Programación en C Electronica UAEH
+//05-11-2021
+#include <stdio.h>
+main ()
+{
+int a, b=0;
+a=b*b+1;
+printf ("Si b= %d, entonces a=%d\n", b, a);
+b=2;
+printf ("Si b=%d, entonces a=%d\n", b, a),
+b=-2;
+printf ("Si b=%d, entonces a=%d\n", b, a);
+}
