@@ -1,0 +1,21 @@
+//Rodolfo García Díaz 1° 3
+//Programación en C Electronica UAEH
+//05-11-2021
+#include <stdio.h>
+
+main()
+{
+	int a, b, c,d;
+	int x,x1;
+	printf("Cambio de posiciones \n");
+	printf("introduce el valor de a: \n");
+	scanf("%d", &a);
+	printf("introduce el valor de b: \n");
+	scanf("%d", &b);
+	printf("introduce el valor de c: \n");
+	scanf("%d", &c);
+	a=b;
+	b=c;
+	c=a;
+	printf("el resultado es: %d %d %d \n",a,b,c);
+}
